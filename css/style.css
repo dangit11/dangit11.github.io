@@ -12,13 +12,14 @@
 .container nav{
     background-color: dodgerblue;
     color: #fff;
+    float: right;
 
 }
 
 .container nav a{
     color: #fff;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 15px;
     grid-column-start: 2;
     grid-column-end: 3;
 }
