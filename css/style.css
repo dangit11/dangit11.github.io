@@ -20,5 +20,6 @@
     text-decoration: none;
     margin-right: 10px;
     grid-column-start: 2;
+    grid-column-start: 3;
 }
 
