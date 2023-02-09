@@ -79,3 +79,90 @@ img{
     grid-column-start: 2;
     grid-column-end: 3;
 }
+
+/*desktop*/
+
+
+@media screen and (min-width: 800px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 75px 1fr 1fr 1fr;
+    }
+
+    .container header{
+        font-size: 60px;
+
+    }
+
+    .container nav{
+        background-color: dodgerblue;
+        text-align: right;
+        padding: 5px;
+        grid-row-start: 1;
+    }
+    
+    .container nav a{
+        font-family: 'Montserrat', sans-serif ;
+        text-decoration: none;
+        margin-right: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        
+    }
+    
+    .container header{
+        font-family: 'Yeseva One', cursive;
+        font-size: 20px;
+        padding: 5px;
+        background-color: dodgerblue;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+    
+    }
+    
+    .image{
+        grid-column-start: 1;
+        grid-column-end: 2 ;
+        grid-row-start: 2;
+        grid-row-end: 3 ;
+    }
+    
+    .imagelogo{
+        height: 100px;
+        width: 100px;
+    }
+    img{
+        border-radius: 20px;
+        padding:5px;
+        height:200px;
+        border: 1px solid white;
+        
+    }
+    
+    .container section{
+        text-align: center;
+        padding-top: 200px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    .container footer{
+        padding-top: 190px;
+        grid-row-start: 5;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    
+    }
+    
+    .container aside{
+        font-size: large;
+        padding-top:20px;
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
