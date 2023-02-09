@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Yeseva+One&display=swap');
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+
+}
+
+.nav{
+    background-color: gray
+
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
