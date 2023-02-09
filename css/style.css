@@ -9,12 +9,12 @@
 }
 
 .nav{
-    background-color: blue
+    background-color: grey
 
 }
 
 .nav a{
-    color: green;
+    color: #fff;
     text-decoration: none;
     margin-right: 10px;
 }
