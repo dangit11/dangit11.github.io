@@ -7,7 +7,7 @@ font-family: 'Yeseva One', cursive; --dispaly */
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: 50px 1fr 1fr 1fr;
     background-color: coral;
 
 }
@@ -16,7 +16,6 @@ font-family: 'Yeseva One', cursive; --dispaly */
     background-color: dodgerblue;
     padding: 5px;
     grid-row-start: 1;
-
 }
 
 .container nav a{
@@ -29,7 +28,7 @@ font-family: 'Yeseva One', cursive; --dispaly */
 
 .container header{
     font-family: 'Yeseva One', cursive;
-    font-size: 70px;
+    font-size: 20px;
     padding: 5px;
     background-color: dodgerblue;
     grid-column-start: 1;
@@ -45,6 +44,10 @@ font-family: 'Yeseva One', cursive; --dispaly */
     grid-row-end: 3 ;
 }
 
+.imagelogo{
+    height: 50px;
+    width: 50px;
+}
 img{
     border-radius: 20px;
     padding:5px;
@@ -69,3 +72,10 @@ img{
 
 }
 
+.container aside{
+    font-size: large;
+    padding-top:20px;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
